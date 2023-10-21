@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #Cde6cb;
+}
+
+
+.estiloContainer {
+    max-width: 100%;
+    margin: 0px auto 0;
+    padding: 0 20px;
+    background: linear-gradient(to right, white, #Cde6cb);
+}
+
+.estiloFonte {
+    margin: 10px 20px 10px 10px;
+    text-decoration: none;
+    color: #49be25;
+    font-family: Arial Black, sans-serif;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    width: 100px; /* Defina o tamanho desejado */
+    height: 100px; /* Defina o tamanho desejado */
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #Cde6cb;
+    outline: none;
+}
+.circle:hover {
+    background-color: #b9d876; /* Substitua 'red' pela cor desejada */
+    border-color: #ffeedd; /* Cor e espessura da borda no hover */
+    outline: none;
+}
+.circle:active {
+    background-color: #b9d876; /* Substitua 'red' pela cor desejada */
+}
+.circle:disabled {
+    background-color: #b9d876; /* Substitua 'red' pela cor desejada */
+}
+.circle:focus {
+    background-color: #b9d876; /* Substitua 'red' pela cor desejada */
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fade-in.active {
+    opacity: 1;
+}
